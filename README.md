@@ -1,10 +1,14 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
+<p align="center"> 
+  <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" />
+</p>
 
-Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
+Welcome to the Skyfall community server for Space Station 14, a remake of SS13. This game runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a custom engine developed by the Space Wizards team and written in C#.
 
-This is the primary repo for Space Station 14. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+## About this Repository
 
-If you want to host or create content for SS14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+This is a repository specifically tailored for the Skyfall server. It's important to note that while we host and create content for SS14, **we are not the original creators of the Robust Toolbox or the main SS14 content**. These tools were developed by the Space Wizards team.
+
+Our repository contains both RobustToolbox and the unique content pack developed for Skyfall, making it an essential tool for those interested in developing additional content for our server.
 
 ## Links
 
@@ -12,13 +16,13 @@ If you want to host or create content for SS14, this is the repo you need. It co
 
 ## Documentation/Wiki
 
-Our [docs site](https://docs.spacestation14.io/) has documentation on SS14s content, engine, game design and more. We also have lots of resources for new contributors to the project.
+Our [docs site](https://docs.spacestation14.io/) has extensive documentation on SS14's content, engine, and game design, in addition to numerous resources for those interested in contributing to the project.
 
 ## Contributing
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of issues](https://github.com/space-wizards/space-station-14-content/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+We warmly welcome contributions from everyone. If you're interested in helping, please join our Discord. We have a [list of issues](https://github.com/space-wizards/space-station-14-content/issues) that need to be addressed and we encourage anyone to take them up. Don't hesitate to ask for help!
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+Please note, while we are not currently accepting translations of the game on our main repository, we welcome contributions to existing forks or creation of new forks for this purpose.
 
 ## Building
 
@@ -26,12 +30,10 @@ We are not currently accepting translations of the game on our main repository. 
 2. Run `RUN_THIS.py` to init submodules and download the engine.
 3. Compile the solution.
 
-[More detailed instructions on building the project.](https://docs.spacestation14.io/getting-started/dev-setup)
+For [more detailed instructions on building the project](https://docs.spacestation14.io/getting-started/dev-setup).
 
 ## License
 
 All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
-
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Please note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
