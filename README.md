@@ -20,9 +20,11 @@ Our [docs site](https://docs.spacestation14.io/) has extensive documentation on 
 
 ## Contributing
 
-We warmly welcome contributions from everyone. If you're interested in helping, please join our Discord. We have a [list of issues](https://github.com/space-wizards/space-station-14-content/issues) that need to be addressed and we encourage anyone to take them up. Don't hesitate to ask for help!
+We operate on a strict modularity process. Any changes to the core code MUST be made upstream. We have a zero tolerance for non-modularity.
 
-Please note, while we are not currently accepting translations of the game on our main repository, we welcome contributions to existing forks or creation of new forks for this purpose.
+Code **MUST** be made in a way that makes it fully modular, this is absolutely doable, so please try. Otherwise we will not be able to accept the content.
+
+Any additonal content that you plan on adding must be placed in the specified modularisation folder. This should follow the relevant path system.
 
 ## Building
 
