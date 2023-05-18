@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Skyrat-SS13/Skyrat-tg/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "snout_husky",
+      "directions": 4
+    },
+    {
+      "name": "snout_wolf",
+      "directions": 4
+    },
+    {
+      "name": "body_husky",
+      "directions": 4
+    },
+    {
+      "name": "ears_big",
+      "directions": 4
+    },
+    {
+      "name": "ears_big_inner",
+      "directions": 4
+    },
+    {
+      "name": "ears_wolf",
+      "directions": 4
+    },
+    {
+      "name": "ears_wolf_inner",
+      "directions": 4
+    },
+    {
+      "name": "full"
+    },
+    {
+      "name": "tail_husky",
+      "directions": 4
+    },
+    {
+      "name": "tail_fox",
+      "directions": 4
+    },
+    {
+      "name": "tail_wolf",
+      "directions": 4
+    }
+  ]
+}
