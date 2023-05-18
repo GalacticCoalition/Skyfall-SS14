@@ -54,7 +54,7 @@
 - type: humanoidBaseSprite
   id: MobCanineHead
   baseSprite:
-    sprite: Skyfall/Skyfall/Mobs/Species/Canine/parts.rsi
+    sprite: Skyfall/Mobs/Species/Canine/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
