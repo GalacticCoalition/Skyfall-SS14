@@ -20,11 +20,22 @@ Our [docs site](https://docs.spacestation14.io/) has extensive documentation on 
 
 ## Contributing
 
-We operate on a strict modularity process. Any changes to the core code MUST be made upstream. We have a zero tolerance for non-modularity.
+**__MODULARISATION GUIDELINES:__**
 
-Code **MUST** be made in a way that makes it fully modular, this is absolutely doable, so please try. Otherwise we will not be able to accept the content.
+**IMPORTANT:** We operate on a strict zero-tolerance non-modularity directive, meaning that all additional content MUST be fully modular and follow this guide. It is absolutely possible to make most if not all additions modular. If you need to change something within the central content pack then this must be taken upstream.
 
-Any additonal content that you plan on adding must be placed in the specified modularisation folder. This should follow the relevant path system.
+**Failure to follow this simple directive will result in your content being denied. No exceptions.**
+
+How you make your additional content will depend on what practical changes will be required. There are two categories for modularisation: Assembly-Type and Resource-Type.
+
+Assembly-Type:
+Assembly type changes are changes that require modification to the C# assembly, such as a code related change. To achieve this you must add your new C# code to the relevant Skyfall assembly. An example of this would be: Adding a new CI system. You'd first assess what changes need to be made and what parts of the game need changed(client, server, etc.) and then navigate to the relevant assembly(e.g. Content.Client.Skyfall) and make your additions there.
+
+Resource-Type:
+Resource type changes are changes that do not require modification to how the game runs(think prototypes, textures, audio etc), and thus requires no C# changes. This means you are able to simply create the new file containg your additional content without interfering with any existing resources. An example of this would be: Adding a new food type. This requires no code changes and all you need to do is create a new YML file in the relevant directory within the Skyfall modular folder (Resources/Prototypes/Skyfall/Hydroponics/Seeds.yml). This primarily relates to new prototypes.
+
+Hybrid-Type:
+These incorporate both of the above and may be required in some scenarios. It is entirely fine for you to utilise both.
 
 ## Building
 
